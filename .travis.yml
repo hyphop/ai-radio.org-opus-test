@@ -1,0 +1,4 @@
+language: c
+before_install: sudo apt-get install vorbis-tools opus-tools 
+script:  ogg123 -d null http://ai-radio.org
+
