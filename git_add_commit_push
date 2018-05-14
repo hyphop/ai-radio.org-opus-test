@@ -10,5 +10,5 @@ msg="$@"
 
 echo "git add -A && git commit -m $msg && git push"
 
-git add -A && git commit -m "$msg" && git push
+git add -A && git commit -m "$msg" && git push origin master
 
